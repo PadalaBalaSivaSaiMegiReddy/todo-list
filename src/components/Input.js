@@ -36,30 +36,29 @@ const Input = ({ handleChange, handleClick, input, toggle, checked }) => {
 
 export default Input;
 
-/*import React from "react";
+// import React from "react";
 
-const Input = ({ handleChange, handleClick, input, toggle, checked }) => {
-  const handleKeyPress = (e) => {
-    if (e.key === "Enter") {
-      handleClick(e);
-    }
-  };
+// const Input = ({ handleChange, handleClick, input, toggle, checked }) => {
+//   const handleKeyPress = (e) => {
+//     if (e.key === "Enter") {
+//       handleClick(e);
+//     }
+//   };
 
-  return (
-    <div className={`inputContainer ${checked === false ? "light" : "dark"}`}>
-      <input
-        type="text"
-        placeholder="Enter a task"
-        value={input}
-        onChange={handleChange}
-        onKeyPress={handleKeyPress}
-      />
-      <button onClick={handleClick}>
-        {toggle ? "Add" : "Edit"}
-      </button>
-    </div>
-  );
-};
+//   return (
+//     <div className={`inputContainer ${checked === false ? "light" : "dark"}`}>
+//       <input
+//         type="text"
+//         placeholder="Enter a task"
+//         value={input}
+//         onChange={handleChange}
+//         onKeyPress={handleKeyPress}
+//       />
+//       <button onClick={handleClick}>
+//         {toggle ? "Add" : "Edit"}
+//       </button>
+//     </div>
+//   );
+// };
 
-export default Input;
-*/
+// export default Input;
